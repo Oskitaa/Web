@@ -1,0 +1,23 @@
+header {
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    background-color: #212529;
+    max-height: 80px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+
+.menu img {
+    width: 80px;
+}
+
+.textmenu {
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+}
