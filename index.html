@@ -7,22 +7,76 @@
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="shortcut icon" type="image/png" href="img/logo.png">
+    <script src="js/three.r92.min.js"></script>
+    <script src="js/vanta.clouds.min.js"></script>
 </head>
 
 <body>
 
     <header>
-        <div class="container menu">
-            <div class="row">
-                <div class="col-lg-3 col-md-3 col-sm-2 col-3 textmenu">
-                    <a href="#"><img src="img/logo.png"></a>
+
+        <div class="row menu">
+            <div class="col-lg-3 col-md-3 col-sm-2 col-3 textmenu">
+                <a href="#home"><img src="img/logo.png" alt="logo"></a>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-2 col-3 textmenu"><a href="#home">Inicio</a></div>
+            <div class="col-lg-3 col-md-3 col-sm-2 col-3 textmenu"><a href="#aboutme">Sobre mi</a></div>
+            <div class="col-lg-3 col-md-3 col-sm-2 col-3 textmenu"><a href="#contact">Contacto</a></div>
+        </div>
+
+    </header>
+
+    <section class="home" id="home">
+
+        <h1>xSauN</h1>
+        <div class="venta-clouds"></div>
+
+    </section>
+
+    <section class="aboutme" id="aboutme">
+
+        <div class="wrap row">
+            <div class="tarjeta-wrap">
+                <div class="tarjeta">
+                    <div class="adelante card1"></div>
+                    <div class="atras">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa ex velit beatae. Illum, suscipit, aspernatur!</p>
+                    </div>
                 </div>
-                <div class="col-lg-3 col-md-3 col-sm-2 col-3 textmenu"><a href="#sec1">Inicio</a></div>
-                <div class="col-lg-3 col-md-3 col-sm-2 col-3 textmenu"><a href="#sec2">Sobre mi</a></div>
-                <div class="col-lg-3 col-md-3 col-sm-2 col-3 textmenu"><a href="#sec3">Contacto</a></div>
+            </div>
+            <div class="tarjeta-wrap">
+                <div class="tarjeta">
+                    <div class="adelante card2"></div>
+                    <div class="atras">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa ex velit beatae. Illum, suscipit, aspernatur!</p>
+                    </div>
+                </div>
             </div>
         </div>
-    </header>
+
+
+    </section>
+
+    <section class="contact" id="contact">
+
+        <h4 class="contacto">Contacta conmigo</h4>
+        <a href="https://www.instagram.com/oskitaa98/?hl=es" target=blank><img src="img/instagram.png" alt="Instagram">Instagram</a>
+        <a href="https://twitter.com/xSauN" target=blank><img src="img/twitter.png" alt="Twitter">Twitter</a>
+        <a href="https://www.linkedin.com/in/oscar-carballar-113882162/" target=blank><img src="img/linkedin.png" alt="Linkedin">Linkedin</a>
+        <a href="mailto:oscarcarboc@gmail.com" target=blank><img src="img/gmail.png" alt="Correo">Correo</a>
+        <a href="https://github.com/Oskitaa" target=blank><img src="img/github.png" alt="GitHub">GitHub</a>
+
+    </section>
+
+    <footer>
+
+        <div class="separator"></div>
+        <p>Página en fase de desarrollo, puede ver todo el código <a href="https://github.com/Oskitaa/Web" target=blank>aquí</a></p>
+
+    </footer>
+
+    <script src="./js/index.js"></script>
 
 </body>
 
