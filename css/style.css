@@ -15,6 +15,17 @@ section {
     width: 100%;
 }
 
+section.home {
+    height: 100vh;
+    justify-content: center;
+}
+
+.welcome {
+    width: 100%;
+    top: 50%;
+    position: absolute;
+}
+
 a {
     color: black;
 }
